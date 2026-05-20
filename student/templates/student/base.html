@@ -1,0 +1,17 @@
+<title>{% block title %} My School {% endblock%}</title>
+
+<nav>
+    <ul>
+        <li><a href="{% url 'students'%}">Students</a></li>
+        <li><a href="{% url 'teachers'%}">Teacher</a></li>
+
+    </ul>
+</nav>
+<div>
+    {% block content %}
+    {% endblock %}
+</div>
+
+<footer>
+    <p>&copy; 2025 My School</p>
+</footer>

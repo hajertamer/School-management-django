@@ -1,0 +1,13 @@
+{% if form.errors %}
+    <div style="color: red;">
+        <strong>Please correct the errors:</strong>
+        <ul>
+            {% for field, errors in form.errors.items %}
+                {% for error in errors %}
+                    <li>{{ field|capfirst }}: {{ error }}</li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+
