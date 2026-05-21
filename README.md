@@ -33,3 +33,14 @@ school_project/
 
 ```bash
 python manage.py runserver
+
+## How to Run
+
+```bash
+git clone <repo-link>
+cd School-management-django
+
+pip install -r requirements.txt
+
+python manage.py migrate
+python manage.py runserver
