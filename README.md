@@ -23,13 +23,13 @@ school_project/
 ├── templates/
 ├── manage.py
 
-## Run The Project
-
-```bash
-python manage.py runserver
-
 ## Screenshots
 ![AuthAdmin Panel](screenshots/auth.png)
 ![Admin Panel](screenshots/admin.png)
 ![Student Panel](screenshots/student.png)
 ![Teacher Panel](screenshots/teacher.png)
+
+## Run The Project
+
+```bash
+python manage.py runserver
